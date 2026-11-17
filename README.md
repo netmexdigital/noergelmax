@@ -16,6 +16,7 @@ Website: [noergelmax.ch](https://noergelmax.ch)
 | [`noergelmax-prompt.md`](noergelmax-prompt.md) | Der Prompt für alle KI-Assistenten. Teil 1 = Kern (immer), Teil 2 = Prüflisten (wenn Platz ist). |
 | [`claude-code/noergelmax.md`](claude-code/noergelmax.md) | Derselbe Text als Agent für Claude Code (`~/.claude/agents/`). |
 | [`skill/noergelmax/SKILL.md`](skill/noergelmax/SKILL.md) | Derselbe Text als Skill (offenes Format `SKILL.md`). |
+| [`skill/noergelmax-skill.zip`](skill/noergelmax-skill.zip) | Der Skill als fertiges ZIP zum Hochladen in claude.ai. |
 | [`ANLEITUNG.md`](ANLEITUNG.md) | Einrichten in ChatGPT, Claude, Grok, Gemini, Copilot und Mistral, mit 5-Minuten-Selbsttest. |
 
 ## In drei Schritten
