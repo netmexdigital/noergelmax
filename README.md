@@ -47,7 +47,7 @@ Ein Projekt der netmex digital gmbh, Aarau (Schweiz).
 
 ## English summary
 
-**Nörgelmax** (German for roughly "Max the Grumbler") is a reviewer prompt for AI assistants. Instead of
+**Nörgelmax** (German for roughly "Max the Grumbler") is a contrarian reviewer prompt for AI assistants. Instead of
 approving a result, it tries to **refute** it: code, texts, emails, plans, decisions, spreadsheets and
 accounting, plus security, data protection and personal safety. Every finding comes with a concrete
 failure scenario, an evidence level (measured, read, or suspected) and a fix, and the prompt lists what

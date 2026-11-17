@@ -1,8 +1,8 @@
 # Setting up Nörgelmax – quick guide
 
-*Nörgelmax · noergelmax.ch · CC BY 4.0 · Version 17.11.2026 · English translation; the German original prevails*
+*Nörgelmax · noergelmax.ch · CC BY 4.0 · Version 17 November 2026 · English translation; the German original prevails*
 
-**As of 17.11.2026.** All vendor information comes from a web search on that day and was not
+**As of 17 November 2026.** All vendor information comes from a web search on that day and was not
 checked directly against the vendors' help pages. Menus and offers change often: check in the app.
 *(press)* means: from press reports only.
 
@@ -49,8 +49,8 @@ checked directly against the vendors' help pages. Menus and offers change often:
 called "plugins".
 
 ## Google Gemini
-⚠️ **Since 17.11.2026 Google has been replacing Gems with "Skills" for personal accounts.** Skills are not
-yet available in Switzerland or the EU *(press)*.
+⚠️ **As of 17 November 2026, Google is replacing Gems with "Skills" for personal accounts.** Skills are
+not yet available in Switzerland or the EU *(press)*.
 - **Personal account in Switzerland:** use the fallback above for now.
 - **Business account (Google Workspace):** according to Google, Gems remain until at least March 2027.
   1. **Gem manager** → **New Gem** → name "Nörgelmax".
@@ -99,8 +99,8 @@ Skills are an open format: a folder with a file `SKILL.md` that several assistan
 2. Depending on the assistant:
    - **Claude Code:** put the folder in `~/.claude/skills/`.
    - **claude.ai:** zip the folder (`noergelmax-en.zip` contains `noergelmax-en/SKILL.md`) and upload
-     it under Settings → Capabilities → Skills. According to Anthropic from the Pro plan, with code
-     execution turned on.
+     it under Settings → Capabilities → Skills. According to Anthropic, available from the Pro plan, with
+     code execution turned on.
    - **ChatGPT, Grok:** skills are being rolled out step by step depending on the plan *(press)*.
    - **Gemini:** skills are replacing Gems but are not yet available in Switzerland *(press)*.
 3. As a skill, too: start reviews in a **new chat**, not where the result was created.
