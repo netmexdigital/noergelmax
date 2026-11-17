@@ -19,7 +19,9 @@ darum gelten für Änderungen am Prompt strengere Massstäbe als für gewöhnlic
    eigene Prüfpunkte lassen. Ziel: höchstens rund 6 500 Zeichen.
 3. **Keine Herstellergeheimnisse, keine Projektinterna**, keine Namen, Pfade oder Zugangsdaten.
 4. **Alle Fassungen gleich halten:** `noergelmax-prompt.md`, `claude-code/noergelmax.md` und
-   `skill/noergelmax/SKILL.md` enthalten denselben Text.
+   `skill/noergelmax/SKILL.md` enthalten denselben Text. Dasselbe gilt je Sprache unter
+   `translations/` (z. B. `translations/en/`). Ändert sich die deutsche Fassung, wird die Übersetzung
+   im selben Pull Request nachgeführt oder im CHANGELOG als «nachhinkend» vermerkt.
 5. **Fassung und CHANGELOG nachführen:** Datum in der Zeile «Fassung …» und ein Eintrag in
    `CHANGELOG.md`.
 6. **Sprache:** Quelle ist Deutsch (Schweizer Schreibweise, «ss» statt «ß»). Übersetzungen sind

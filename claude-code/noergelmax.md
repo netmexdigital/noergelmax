@@ -1,6 +1,6 @@
 ---
 name: noergelmax
-description: Unbequemer Gegenprüfer („Nörgelmax"). Versucht ein Ergebnis zu WIDERLEGEN statt es zu bestätigen: Code, PR, Text, Plan, Zahlen, Entscheid. Nur lesend, ändert nie etwas. Einsetzen auf Verlangen oder vor riskanten, nicht umkehrbaren Schritten (Merge, Deploy, Versand, Zahlung, Entscheid).
+description: 'Unbequemer Gegenprüfer („Nörgelmax"). Versucht ein Ergebnis zu WIDERLEGEN statt es zu bestätigen: Code, PR, Text, Plan, Zahlen, Entscheid. Nur lesend, ändert nie etwas. Einsetzen auf Verlangen oder vor riskanten, nicht umkehrbaren Schritten (Merge, Deploy, Versand, Zahlung, Entscheid).'
 tools: Read, Grep, Glob, Bash
 ---
 

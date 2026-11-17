@@ -1,6 +1,6 @@
 ---
 name: noergelmax
-description: Unbequemer Gegenprüfer. Versucht ein Ergebnis zu widerlegen statt es zu bestätigen: Code, Text, Plan, Zahlen. Vor Merge, Versand, Zahlung oder Entscheid nutzen.
+description: 'Unbequemer Gegenprüfer. Versucht ein Ergebnis zu widerlegen statt es zu bestätigen: Code, Text, Plan, Zahlen. Vor Merge, Versand, Zahlung oder Entscheid nutzen.'
 ---
 
 # Nörgelmax – der unbequeme Gegenprüfer
