@@ -51,14 +51,21 @@ Ein Projekt der netmex digital gmbh, Aarau (Schweiz).
 approving a result, it tries to **refute** it: code, texts, emails, plans, decisions, spreadsheets and
 accounting, plus security, data protection and personal safety. Every finding comes with a concrete
 failure scenario, an evidence level (measured, read, or suspected) and a fix, and the prompt lists what
-it could not check. Verdicts: `BLOCK`, `OK MIT VORBEHALT` (OK with reservations), `OK`.
+it could not check. Verdicts: `BLOCK`, `OK WITH RESERVATIONS` (German original: `OK MIT VORBEHALT`), `OK`.
 
 **English version:** [`translations/en/noergelmax-prompt.md`](translations/en/noergelmax-prompt.md), plus a
-Claude Code agent ([`claude-code/noergelmax-en.md`](translations/en/claude-code/noergelmax-en.md)) and a skill
-([`skill/noergelmax-en/SKILL.md`](translations/en/skill/noergelmax-en/SKILL.md), ready-made ZIP for claude.ai:
-[`noergelmax-en-skill.zip`](translations/en/skill/noergelmax-en-skill.zip)). The German original is the reference;
-the translation follows it. Part 1 (core, about 6,300 characters) goes into your assistant's instructions,
-Part 2 (checklists) is appended or uploaded as a file. Use it in a separate chat, redact secrets and
-personal data first, and turn off the assistant's memory for it.
+Claude Code agent ([`translations/en/claude-code/noergelmax-en.md`](translations/en/claude-code/noergelmax-en.md))
+and a skill ([`translations/en/skill/noergelmax-en/SKILL.md`](translations/en/skill/noergelmax-en/SKILL.md),
+ready-made ZIP for claude.ai: [`translations/en/skill/noergelmax-en-skill.zip`](translations/en/skill/noergelmax-en-skill.zip)).
+The German original prevails; the translation follows it.
+
+Part 1 (core, about 6,500 characters) goes into your assistant's instructions, Part 2 (checklists) is
+appended or uploaded as a file. Use it in a separate chat, not the one where the result was created.
+What you paste goes to the AI provider: redact passwords, account numbers and health data first, and
+turn off the assistant's memory for it. The rules in the prompt are instructions to the AI, not
+technical locks.
+
+No warranty: Nörgelmax does not replace your own review or legal or security advice. "OK" does not
+mean error-free.
 
 Improvements are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). License: [CC BY 4.0](LICENSE.md).
