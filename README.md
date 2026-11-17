@@ -18,6 +18,7 @@ Website: [noergelmax.ch](https://noergelmax.ch)
 | [`skill/noergelmax/SKILL.md`](skill/noergelmax/SKILL.md) | Derselbe Text als Skill (offenes Format `SKILL.md`). |
 | [`skill/noergelmax-skill.zip`](skill/noergelmax-skill.zip) | Der Skill als fertiges ZIP zum Hochladen in claude.ai. |
 | [`ANLEITUNG.md`](ANLEITUNG.md) | Einrichten in ChatGPT, Claude, Grok, Gemini, Copilot und Mistral, mit 5-Minuten-Selbsttest. |
+| [`translations/en/`](translations/en/) | Englische Fassung: Prompt, Claude-Code-Agent und Skill (`noergelmax-en`). |
 
 ## In drei Schritten
 
@@ -52,5 +53,12 @@ accounting, plus security, data protection and personal safety. Every finding co
 failure scenario, an evidence level (measured, read, or suspected) and a fix, and the prompt lists what
 it could not check. Verdicts: `BLOCK`, `OK MIT VORBEHALT` (OK with reservations), `OK`.
 
-The prompt is in German (Swiss data-protection terms included). English translations are welcome as
-separate files, see [CONTRIBUTING.md](CONTRIBUTING.md). License: [CC BY 4.0](LICENSE.md).
+**English version:** [`translations/en/noergelmax-prompt.md`](translations/en/noergelmax-prompt.md), plus a
+Claude Code agent ([`claude-code/noergelmax-en.md`](translations/en/claude-code/noergelmax-en.md)) and a skill
+([`skill/noergelmax-en/SKILL.md`](translations/en/skill/noergelmax-en/SKILL.md), ready-made ZIP for claude.ai:
+[`noergelmax-en-skill.zip`](translations/en/skill/noergelmax-en-skill.zip)). The German original is the reference;
+the translation follows it. Part 1 (core, about 6,300 characters) goes into your assistant's instructions,
+Part 2 (checklists) is appended or uploaded as a file. Use it in a separate chat, redact secrets and
+personal data first, and turn off the assistant's memory for it.
+
+Improvements are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). License: [CC BY 4.0](LICENSE.md).
