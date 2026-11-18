@@ -18,7 +18,7 @@ Website: [noergelmax.ch](https://noergelmax.ch)
 | [`skill/noergelmax/SKILL.md`](skill/noergelmax/SKILL.md) | Derselbe Text als Skill (offenes Format `SKILL.md`). |
 | [`skill/noergelmax-skill.zip`](skill/noergelmax-skill.zip) | Der Skill als fertiges ZIP zum Hochladen in claude.ai. |
 | [`ANLEITUNG.md`](ANLEITUNG.md) | Einrichten in ChatGPT, Claude, Grok, Gemini, Copilot und Mistral, mit 5-Minuten-Selbsttest. |
-| [`translations/en/`](translations/en/) | Englische Fassung: Prompt, Claude-Code-Agent und Skill (`noergelmax-en`). |
+| [`translations/en/`](translations/en/) | Englische Fassung: Prompt, Claude-Code-Agent, Skill (`noergelmax-en`) und Kurzanleitung (`GUIDE.md`). |
 
 ## In drei Schritten
 
@@ -47,7 +47,7 @@ Ein Projekt der netmex digital gmbh, Aarau (Schweiz).
 
 ## English summary
 
-**Nörgelmax** (German for roughly "Max the Grumbler") is a reviewer prompt for AI assistants. Instead of
+**Nörgelmax** (German for roughly "Max the Grumbler") is a contrarian reviewer prompt for AI assistants. Instead of
 approving a result, it tries to **refute** it: code, texts, emails, plans, decisions, spreadsheets and
 accounting, plus security, data protection and personal safety. Every finding comes with a concrete
 failure scenario, an evidence level (measured, read, or suspected) and a fix, and the prompt lists what
@@ -56,7 +56,9 @@ it could not check. Verdicts: `BLOCK`, `OK WITH RESERVATIONS` (German original: 
 **English version:** [`translations/en/noergelmax-prompt.md`](translations/en/noergelmax-prompt.md), plus a
 Claude Code agent ([`translations/en/claude-code/noergelmax-en.md`](translations/en/claude-code/noergelmax-en.md))
 and a skill ([`translations/en/skill/noergelmax-en/SKILL.md`](translations/en/skill/noergelmax-en/SKILL.md),
-ready-made ZIP for claude.ai: [`translations/en/skill/noergelmax-en-skill.zip`](translations/en/skill/noergelmax-en-skill.zip)).
+ready-made ZIP for claude.ai: [`translations/en/skill/noergelmax-en-skill.zip`](translations/en/skill/noergelmax-en-skill.zip)),
+plus a quick guide for ChatGPT, Claude, Grok, Gemini, Copilot and Mistral with a 5-minute self-test:
+[`translations/en/GUIDE.md`](translations/en/GUIDE.md). Website in English: [noergelmax.ch/en](https://noergelmax.ch/en/).
 The German original prevails; the translation follows it.
 
 Part 1 (core, about 6,500 characters) goes into your assistant's instructions, Part 2 (checklists) is
